@@ -33,7 +33,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'Kalikot/Download-macOS'
+    if: github.repository == 'kalikot26/Download-macOS'
     steps:
       - uses: actions/checkout@v4
       
